@@ -1,0 +1,40 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 97.5vh;
+    background-color: black;
+}
+
+.card{
+    height: 40vh;
+    width: 60vh;
+    background: linear-gradient(to right,#6157ff,#ee49fd);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 10px;
+    font-size: xx-large;
+    /* box-shadow: 2px 2px 2px 2px; */
+}
+
+.card > button{
+    height: 40px;
+    width: 200px;
+    border-radius: 40px;
+    border-radius: 10px solid black;
+    background: linear-gradient(to left,#0172af,#74Febd);
+    font-size: large;
+    cursor: pointer;
+    box-shadow: 2px 2px 10px black inset;
+}
+
+button:hover{
+    scale: 1.1;
+    font-size: x-large;
+    transition: 0.5s;
+}
+
